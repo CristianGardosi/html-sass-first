@@ -1,7 +1,7 @@
 {
   "name": "html-sass-first",
   "version": "1.0.0",
-  "description": "Scheletro utilizzo NPM & SASS e primi esempi pratici",
+  "description": "NPM & SASS",
   "main": "index.js",
   "scripts": {
     "dev": "npm run development",
@@ -11,15 +11,13 @@
     "prod": "npm run production",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "html-sass-first"
-  },
   "author": "Cristian Gardosi",
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
-    "bootstrap": "^4.5.3"
+    "bootstrap": "^4.5.3",
+    "dayjs": "^1.9.7",
+    "jquery": "^3.5.1"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
